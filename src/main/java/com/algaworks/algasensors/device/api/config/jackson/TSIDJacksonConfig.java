@@ -1,4 +1,4 @@
-package com.algaworks.algasensors.device.api.config;
+package com.algaworks.algasensors.device.api.config.jackson;
 
 import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.databind.module.SimpleModule;
