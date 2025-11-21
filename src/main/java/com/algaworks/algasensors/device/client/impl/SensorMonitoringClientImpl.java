@@ -4,10 +4,9 @@ import com.algaworks.algasensors.device.api.model.SensorMonitoringOutput;
 import com.algaworks.algasensors.device.client.RestClientFactory;
 import com.algaworks.algasensors.device.client.SensorMonitoringClient;
 import io.hypersistence.tsid.TSID;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
-@Component
+//@Component
 public class SensorMonitoringClientImpl implements SensorMonitoringClient {
 
     private final RestClient restClient;
